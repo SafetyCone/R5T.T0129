@@ -55,6 +55,18 @@ namespace R5T.T0129
         public string SourceName { get; set; }
 
 
+        public NameAlias()
+        {
+        }
+
+        public NameAlias(
+            string destinationName,
+            string sourceName)
+        {
+            this.DestinationName = destinationName;
+            this.SourceName = sourceName;
+        }
+
         public bool Equals(NameAlias other)
         {
             var output = other is object

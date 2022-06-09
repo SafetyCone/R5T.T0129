@@ -1,3 +1,8 @@
-R5T.T0129 - NameAlias and other related basic types.
+R5T.T0129 - NameAlias and other related basic Roslyn syntax types.
 
-GOALS:
+
+Allowed Dependencies:
+
+* R5T.Magyar - .NET C# language extensions.
+
+Note: no actual dependencies on Roslyn types are allowed! These are basic types (depending only on C# types).
